@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T15:14:34.618Z" agent="5.0 (Macintosh)" version="13.3.0" etag="T8Q6LEdc_M-mQm0JsD5s" type="github"><diagram id="seBdj83FbZHJU66lqtSa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-19T15:15:13.609Z" agent="5.0 (Macintosh)" etag="ARQm2WRw6jA-7lSlrLFn" version="13.3.0" type="github">
+  <diagram id="seBdj83FbZHJU66lqtSa" name="Page-1">
+    <mxGraphModel dx="1151" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e3aTmDvOZneHHjMWG58F-1" value="node.JS Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-2" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3aTmDvOZneHHjMWG58F-1" target="e3aTmDvOZneHHjMWG58F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="70" as="sourcePoint" />
+            <mxPoint x="200" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="220" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-4" value="local build" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-3">
+          <mxGeometry width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-5" value="&lt;div&gt;Developer Computer&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-3">
+          <mxGeometry x="25" y="30" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-6" value=".npmrc (?)" style="shape=card;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-3">
+          <mxGeometry x="40" y="170" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="220" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-8" value="ODS build" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-7">
+          <mxGeometry width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-9" value="ODS Node&lt;br&gt;Build Agent" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-7">
+          <mxGeometry x="25" y="30" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-10" value=".npmrc" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-7">
+          <mxGeometry x="40" y="170" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="220" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-12" value="Ionic build" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-11">
+          <mxGeometry width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-13" value="Ionic&lt;br&gt;Build Agent" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="e3aTmDvOZneHHjMWG58F-11">
+          <mxGeometry x="25" y="30" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-14" value="Angular Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-15" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3aTmDvOZneHHjMWG58F-14" target="e3aTmDvOZneHHjMWG58F-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="130" as="sourcePoint" />
+            <mxPoint x="200" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-16" value="Ionic Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3aTmDvOZneHHjMWG58F-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e3aTmDvOZneHHjMWG58F-16" target="e3aTmDvOZneHHjMWG58F-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="190" as="sourcePoint" />
+            <mxPoint x="200" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
